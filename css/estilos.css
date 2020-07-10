@@ -75,7 +75,7 @@ hr{
 
 .main_section{
   text-align: center;
-  padding: 15%;
+  padding: 5%;
 }
 
 /* -------------------------------------------  PRODUCTOS */
@@ -86,14 +86,14 @@ hr{
   background-position: center top;
   background-repeat: no-repeat;
   display: flex;
+  justify-content: center;
   height: 95px;
   background-size: cover;
-
 }
 
 .product{
   padding: 20px;
-  margin-top: -226px;
+  margin-top: -25%;
 }
 
 .image-product{
