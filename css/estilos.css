@@ -38,7 +38,9 @@ p, label{
   width: 200px;
 }
 
-
+.libreta-image  {
+  width: 200px;
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -121,6 +123,7 @@ hr{
 }
 
 /* Beneficios */
+
 .beneficios{
   padding: 10%;
   display: flex;
@@ -198,5 +201,5 @@ footer{
   color: var(--white-color);
 }
 .contact a{
-  color: var(--green-color);
+  color: var(--white-color);
 }
