@@ -34,7 +34,9 @@ p, label{
   font-size: var(--normal);
 }
 
-
+.logo-image {
+  width: 200px;
+}
 
 
 nav{
