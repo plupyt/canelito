@@ -13,6 +13,7 @@
   --green-color: #002f5b;
   --black-color: #313337;
   --white-color: white;
+  --pink-color: #E08E79;
   /*------ Tipografía */
   --normal:12px;
   /*------ Espaciado */
@@ -119,7 +120,7 @@ hr{
   color: var(--white-color);
 }
 .main_btn:hover{
-  background-color: #E08E79;
+  background-color: var(--pink-color);
 }
 
 /* Beneficios */
@@ -127,6 +128,7 @@ hr{
 .beneficios{
   padding: 10%;
   display: flex;
+  justify-content: center;
 }
 
 .beneficio{
@@ -188,6 +190,27 @@ padding:var(--space-2);
 
 .modulo_pago .main_btn{
       margin-top: 10px;
+}
+
+/* ------------------------------------------- HBSPT FORM */
+
+#my-hbspt-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-hbspt-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-hbspt-form .form-container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 
