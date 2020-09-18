@@ -189,7 +189,7 @@ padding:var(--space-2);
 }
 
 .modulo_pago .main_btn{
-      margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* ------------------------------------------- HBSPT FORM */
@@ -213,16 +213,41 @@ padding:var(--space-2);
   margin: 0 auto;
 }
 
-
 /* ------------------------------------------- Footer */
 footer{
+  align-items: center;
+  background-image: linear-gradient(var(--white-color), var(--green-color), var(--green-color), #01284d);
+  color: var(--white-color);
+  display: flex;
+  font-size: var(--normal);
+  height: 30px;
+  justify-content: space-between;
+  padding: 20px 30px 10px 30px;
+}
+
+.contact {
   display: flex;
   justify-content: space-between;
-  font-size: var(--normal);
-  background-color: var(--black-color);
-  padding: var(--space);
-  color: var(--white-color);
+  width: 150px;
 }
+
 .contact a{
   color: var(--white-color);
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+.contact__social--image_facebook {
+  width: 20px;
+  height: 20px;
+}
+
+.contact__social--image_instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.contact__social--image_gmail {
+  width: 26px;
+  height: 17px;
 }
