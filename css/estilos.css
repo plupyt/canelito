@@ -59,7 +59,6 @@ nav a{
 
 nav a:hover{
   color: var(--white-color);
-  font-size: 14px;
 }
 
 nav ul {
