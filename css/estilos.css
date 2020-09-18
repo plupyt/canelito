@@ -42,7 +42,7 @@ p, label{
 .libreta-image  {
   width: 200px;
 }
-navbar{
+nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,22 +51,22 @@ navbar{
   background-color: var(--green-color);
 }
 
-navbar a{
+nav a{
   text-decoration: none;
   color: var(--white-color);
   font-size: var(--normal);
 }
 
-navbar a:hover{
+nav a:hover{
   color: var(--white-color);
   font-size: 14px;
 }
 
-navbar ul {
+nav ul {
   display: flex;
 }
 
-navbar ul li{
+nav ul li{
   padding-right: 20px;
   list-style: none;
 }
