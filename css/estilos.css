@@ -163,6 +163,18 @@ hr{
   word-break: normal;
 }
 
+/* contactame */
+.socialNetwork__title {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.socialNetwork__container--icons {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Mentions */
 .mentions{
   display: flex;
