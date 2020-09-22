@@ -290,13 +290,13 @@ padding:var(--space-2);
 /* ------------------------------------------- Footer */
 footer{
   align-items: center;
-  background-image: linear-gradient(var(--white-color), var(--green-color), var(--green-color), #01284d);
+  background-color: var(--green-color);
   color: var(--white-color);
   display: flex;
   font-size: var(--normal);
   height: 30px;
   justify-content: space-between;
-  padding: 20px 30px 10px 30px;
+  padding: 10px 30px 10px 30px;
 }
 
 .contact {
@@ -307,7 +307,6 @@ footer{
 
 .contact a{
   color: var(--white-color);
-  padding-top: 5px;
   text-decoration: none;
 }
 
