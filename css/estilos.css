@@ -175,15 +175,6 @@ hr{
   justify-content: center;
 }
 
-.socialNetwork__container--tags {
-  display: flex;
-  justify-content: center;
-}
-
-.socialNetwork__container--tags a {
-  margin: 15px 45px 5px 65px;
-}
-
 /* Adopta un lomito*/
 .adoptaUnLomito__content--title {
   display: flex;
