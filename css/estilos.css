@@ -43,9 +43,10 @@ p, label{
   width: 200px;
 }
 nav{
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   padding: var(--space);
   min-height: 60px;
   background-color: var(--green-color);
@@ -142,6 +143,24 @@ hr{
 
 .text_beneficio{
   text-align: justify;
+}
+
+/*Conoce mas*/
+.conoceMas__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 70px;
+}
+
+.conoceMas--image {
+  width: 33.3333333332%;
+  padding: 0px 120px 0px 0px;
+}
+
+.conoceMas--text {
+  font-size: larger;
+  word-break: normal;
 }
 
 /* Mentions */

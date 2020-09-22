@@ -33,8 +33,6 @@
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 @-webkit-keyframes fadeInDown {
