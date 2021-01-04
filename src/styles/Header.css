@@ -1,0 +1,44 @@
+.header {
+    background-color: #002f5b;
+    font-size: small;
+    padding: 1vh;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_content {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 45em;
+}
+
+.header_options {
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+.logoHeader {
+    height: 6em;
+    width: 15.5em;
+}
+
+@media screen and (max-width: 715px) {
+    .content-container {
+        flex-direction: column-reverse;
+    }
+
+    .header_content {
+        flex-direction: column;
+    }
+
+    .header_content {
+        width: 100%;
+    }
+}
