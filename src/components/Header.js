@@ -3,7 +3,7 @@ import '../styles/Header.css'
 
 export const Header = () => (
     <header className='header'>
-        <div className='content-container'>
+        <nav className='content-container'>
             <div className='header_content'>
                 <a className='header_options' href="">
                     <p className='header_options-conoceMas'>Conoce más</p>
@@ -24,7 +24,7 @@ export const Header = () => (
             <div className='header-logo'>
                 <img className='logoHeader' src="/images/loguito.png"></img>
             </div>
-        </div>
+        </nav>
     </header>
 );
 

@@ -1,11 +1,12 @@
 import React from 'react'
 
 import Header from './Header'
-import NotFoundPage from './NotFoundPage'
+import { PaginaInicio } from './PaginaInicio'
 
 export const Canelito = () => (
     <div>
-        <Header></Header>
+        <Header />
+        <PaginaInicio />
     </div>
 )
 
