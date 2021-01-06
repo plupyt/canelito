@@ -1,31 +1,16 @@
-import React from 'react';
-import '../styles/Header.css'
+import React from 'react'
 
 export const Header = () => (
-    <header className='header'>
-        <nav className='content-container'>
-            <div className='header_content'>
-                <a className='header_options' href="">
-                    <p className='header_options-conoceMas'>Conoce más</p>
-                </a>
-                <a className='header_options' href="">
-                    <p className='header_options-adoptaUnLomito'>Adopta un lomito</p>
-                </a>
-                <a className='header_options' href="">
-                    <p className='header_options-contactame'>Contáctame</p>
-                </a>
-                <a className='header_options' href="">
-                    <p className='header_options-faqs'>FAQ's</p>
-                </a>
-                <a className='header_options' href="">
-                    <p className='header_options-productoYDescripcion'>Producto y descripción</p>
-                </a>
-            </div>
-            <div className='header-logo'>
-                <img className='logoHeader' src="/images/loguito.png"></img>
-            </div>
-        </nav>
-    </header>
+    <nav className="fadeInDown">
+        <a href="./Canelito.js"><img src="images/loguito.png" className="logo-image" alt="logo_canelito"></img></a>
+        <ul>
+            <li> <a href="./ConoceMas.js" >Conoce más</a></li>
+            <li> <a href="adoptaUnLomito.html" >Adopta un lomito</a></li>
+            <li> <a href="contactame.html" >Contáctame</a></li>
+            <li> <a href="#">FAQ's</a></li>
+            <li> <a href="producto.html">Producto y descripción</a></li>
+        </ul>
+    </nav>
 );
 
 export default Header;

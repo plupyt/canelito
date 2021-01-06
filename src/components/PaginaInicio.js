@@ -1,8 +1,4 @@
 import React from 'react'
-import '../styles/normalize.css'
-import '../styles/estilos.css'
-import '../styles/mobile.css'
-import '../styles/animations.css'
 
 export const PaginaInicio = () => (
     <div>
@@ -75,3 +71,5 @@ export const PaginaInicio = () => (
         {/* <!-- Fin beneficios --> */}
     </div>   
 )
+
+export default PaginaInicio
