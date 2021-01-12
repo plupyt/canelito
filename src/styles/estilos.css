@@ -85,7 +85,7 @@ hr{
 /* -------------------------------------------  PRODUCTOS */
 
 .products{
-  /* background-image: "url(${process.env.PUBLIC_URL + '/curve.png'})"; */
+  background-image: url('./assets/curve.png');
   padding: 15%;
   background-position: center top;
   background-repeat: no-repeat;
