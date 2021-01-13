@@ -1,4 +1,5 @@
 import React from 'react'
+import HubspotForm from 'react-hubspot-form'
 
 export const PaginaInicio = () => (
     <div>
@@ -69,6 +70,20 @@ export const PaginaInicio = () => (
             </div>
         </div>
         {/* <!-- Fin beneficios --> */}
+        <hr></hr>
+        <section id="my-hbspt-form">
+            <h2>Regístrate</h2>
+            <div className="form-container">
+                <HubspotForm 
+                    portalId = '8070410' 
+                    formId = '0aa65d8b-d819-4337-9ded-fa9afedfbd1f'
+                    onSubmit = {() => console.log('Submit!')}
+                    onReady={(form) => console.log('Form ready!')}
+                    loading={<div>Loading...</div>}
+                />
+            </div>
+        </section>
+        
     </div>   
 )
 
