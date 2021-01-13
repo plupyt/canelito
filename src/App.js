@@ -1,9 +1,9 @@
 import React from 'react';
-// import ReactDOM from 'react-dom'
-import Canelito from './components/Canelito'
+
+import AppRouter from './routers/AppRouter.js'
 
 export const App = () => (
-  <Canelito />
+  <AppRouter />
 )
 
 export default App;

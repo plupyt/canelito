@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export const Header = () => (
     <nav className="fadeInDown">
-        <a href="./Canelito.js"><img src="images/loguito.png" className="logo-image" alt="logo_canelito"></img></a>
+        <Link to="/"><img src="images/loguito.png" className="logo-image" alt="logo_canelito"></img></Link>
         <ul>
-            <li> <a href="./ConoceMas.js" >Conoce más</a></li>
-            <li> <a href="adoptaUnLomito.html" >Adopta un lomito</a></li>
-            <li> <a href="contactame.html" >Contáctame</a></li>
-            <li> <a href="#">FAQ's</a></li>
-            <li> <a href="producto.html">Producto y descripción</a></li>
+            <li> <Link to='/conoceMas' >Conoce más</Link></li>
+            <li> <Link to='/adoptaUnLomito' >Adopta un lomito</Link></li>
+            <li> <Link to='/contactame'  >Contáctame</Link></li>
+            <li> <Link to='/' >FAQ's</Link></li>
+            <li> <Link to='/producto'>Producto y descripción</Link></li>
         </ul>
     </nav>
 );

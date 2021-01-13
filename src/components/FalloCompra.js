@@ -5,7 +5,7 @@ export const FalloCompra = () => (
     <div class="content_paypal">
         <img src="images/box_brand.png" alt="" />
         <h3>!Ouch! Tu compra no se pudo realizar.</h3>
-        <p>Haz <a href="index.html">click aquí</a> para ir al home</p>
+        <p>Haz <Link to='/'>click aquí</Link> para ir al home</p>
     </div>
 )
 
