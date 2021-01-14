@@ -9,6 +9,8 @@ import ConoceMas from '../components/ConoceMas.js'
 import Contactame from '../components/Contactame.js'
 import AdoptaUnLomito from '../components/AdoptaUnLomito.js'
 import Producto from '../components/Producto.js'
+import FormVenta from '../components/FormVenta.js'
+import FormVentaP2 from '../components/FormVentaP2.js'
 import NotFoundPage from '../components/NotFoundPage.js'
 
 import '../styles/normalize.css'
@@ -29,6 +31,8 @@ const AppRouter =  () => (
                 <Route path='/conoceMas' component={ConoceMas} />
                 <Route path='/contactame' component={Contactame} />
                 <Route path='/producto' component={Producto} />
+                <Route path='/venta/1' component={FormVenta} />
+                <Route path='/venta/2'  component={FormVentaP2} />
                 <Route component={NotFoundPage} />
             </Switch>
         </div>

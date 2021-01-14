@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import HubspotForm from 'react-hubspot-form'
 
 export const PaginaInicio = () => (
@@ -15,11 +16,11 @@ export const PaginaInicio = () => (
                     </div>
                     <h3>Poster 1</h3>
                     <p>¿Te gusta esa imagen? Te invito a descargarla</p>
-                    <a href="venta.html">
+                    <Link to='/venta/1'>
                         <button className="main_btn">
                             Lo quiero
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="product fadeInUp">
@@ -29,11 +30,11 @@ export const PaginaInicio = () => (
                     </div>
                     <h3>Poster 2</h3>
                     <p>Diviértete con mi fondo de pantalla para móvil</p>
-                    <a href="ventap2.html">
+                    <Link to='/venta/2'>
                         <button className="main_btn">
                             Lo quiero
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
