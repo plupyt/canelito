@@ -16,7 +16,7 @@ export const PaginaInicio = () => (
                     </div>
                     <h3>Poster 1</h3>
                     <p>¿Te gusta esa imagen? Te invito a descargarla</p>
-                    <Link to='/venta/1'>
+                    <Link to='/venta1'>
                         <button className="main_btn">
                             Lo quiero
                         </button>
@@ -30,7 +30,7 @@ export const PaginaInicio = () => (
                     </div>
                     <h3>Poster 2</h3>
                     <p>Diviértete con mi fondo de pantalla para móvil</p>
-                    <Link to='/venta/2'>
+                    <Link to='/venta2'>
                         <button className="main_btn">
                             Lo quiero
                         </button>

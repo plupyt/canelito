@@ -12,7 +12,7 @@ export const FormVentaP2 = () => (
                 <div class="col-4">
                     <div class="modulo_pago">
                         <div class="modulo_pago_images">
-                            <img src="images/libretaportada2.png" alt="" />
+                            <img src="/images/libretaportada2.png" alt="" />
                         </div>
                         <h3>Poster 2</h3>
                         <p>Descarga este wallpaper para que te acompañe en tu móvil.</p>

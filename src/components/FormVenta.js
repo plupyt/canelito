@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 export const FormVenta = () => (
     <div>
         <br />
@@ -14,7 +12,7 @@ export const FormVenta = () => (
                 <div class="col-4">
                     <div class="modulo_pago">
                         <div class="modulo_pago_images">
-                            <img src="images/libretaportada.png" alt="" />
+                            <img src="/images/libretaportada.png" alt="" />
                         </div>
                         <h3>Poster 1</h3>
                         <p>Descarga este poster para tenerme siempre contigo.</p>
@@ -22,7 +20,7 @@ export const FormVenta = () => (
                 </div>
                 <div class="col-8">
                     <div class="modulo_pago">
-                        <form action="exito.html" method="get">
+                        <form action='/ExitoCompra' method="get">
                             <label for="name">Nombre</label>
                             <br />
                             <input type="text" placeholder="" name="name" class="data" />

@@ -31,8 +31,8 @@ const AppRouter =  () => (
                 <Route path='/conoceMas' component={ConoceMas} />
                 <Route path='/contactame' component={Contactame} />
                 <Route path='/producto' component={Producto} />
-                <Route path='/venta/1' component={FormVenta} />
-                <Route path='/venta/2'  component={FormVentaP2} />
+                <Route path='/venta1' component={FormVenta} />
+                <Route path='/venta2' component={FormVentaP2} />
                 <Route component={NotFoundPage} />
             </Switch>
         </div>
