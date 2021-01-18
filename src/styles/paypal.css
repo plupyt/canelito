@@ -1,4 +1,4 @@
-body{
+.mensajePago {
     background-color: var(--black-color);
     text-align: center;
     color: var(--white-color);
@@ -9,4 +9,4 @@ body{
   }
   .content_paypal a{
     color: var(--pink-color);
-  }
+}

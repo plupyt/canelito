@@ -11,6 +11,8 @@ import AdoptaUnLomito from '../components/AdoptaUnLomito.js'
 import Producto from '../components/Producto.js'
 import FormVenta from '../components/FormVenta.js'
 import FormVentaP2 from '../components/FormVentaP2.js'
+import ExitoCompra from '../components/ExitoCompra.js'
+import FalloCompra from '../components/FalloCompra.js'
 import NotFoundPage from '../components/NotFoundPage.js'
 
 import '../styles/normalize.css'
@@ -33,6 +35,8 @@ const AppRouter =  () => (
                 <Route path='/producto' component={Producto} />
                 <Route path='/venta1' component={FormVenta} />
                 <Route path='/venta2' component={FormVentaP2} />
+                <Route path='/exitoCompra' component={ExitoCompra} />
+                <Route path='/falloCompra' component={FalloCompra} />
                 <Route component={NotFoundPage} />
             </Switch>
         </div>

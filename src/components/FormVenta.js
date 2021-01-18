@@ -20,7 +20,7 @@ export const FormVenta = () => (
                 </div>
                 <div class="col-8">
                     <div class="modulo_pago">
-                        <form action='/ExitoCompra' method="get">
+                        <form action='/exitoCompra' method="get">
                             <label for="name">Nombre</label>
                             <br />
                             <input type="text" placeholder="" name="name" class="data" />
